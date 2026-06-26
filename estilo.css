@@ -21,7 +21,7 @@ main{
     background-color: bisque;
     padding 25px;
     border-radius: 10px;
-    box-shadow: 0 0px rgba(0,0,0, 0.1)
+    box-shadow: 0 0px rgba(0,0,0, 0.1);
     text-align: center;
 
 }
@@ -40,4 +40,18 @@ button{
 }
 button:houver{
     background-color: rgba(231, 29, 73, 0.521);
+}
+
+.contraste{
+    background-color: black;
+    color: yellow;
+}
+.contraste .card{
+    background-color: #222;
+    color: yellow;
+    boder: 2px solid yellow;
+}
+.contraste button{
+    background-color: yellow;
+    color: #222;
 }

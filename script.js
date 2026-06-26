@@ -1,15 +1,14 @@
 let tamanhoFonte = 18;
 
-function aumentarFonte()(
+function aumentarFonte(){
     tamanhoFonte +=2;
-    document.getElementById(`texto´). style.fontSize = tamamanhoFonte + 'px';
-{
-function diminuirContraste()(
-    tamanhoFonte +=2;
-    document.getElementById(`texto´). style.fontSize = tamamanhoFonte + 'px';
+    document.getElementById('texto'). style.fontSize = tamanhoFonte + 'px';
     }
-    {
-function altoContraste()(
-    tamanhoFonte +=2;
-    document.getElementById(`texto´). style.fontSize = tamamanhoFonte + 'px';
+function diminuirFonte(){
+    tamanhoFonte -=2;
+    document.getElementById('texto'). style.fontSize = tamanhoFonte + 'px';
+    }
+    
+function altoContraste(){
+    document.body.classList.toggle('contraste');
     }
